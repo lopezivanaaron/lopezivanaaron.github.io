@@ -1,0 +1,93 @@
+@import 'variables';
+
+
+
+header
+{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+nav
+{
+    background-color: aliceblue;
+}
+
+main
+{
+    height: 1500px;
+    width: 100%;
+    background-color:$color-principal;
+}
+.pollo-1
+{
+    height: 300px;
+    width: 50%;
+    background-color: $color-primeraopcion;  
+   
+}
+.pollo-2
+{
+    height: 300px;
+    width: 50%;
+    background-color: $color-segundaopcion;  
+}
+.tortas-1
+{
+    height: 300px;
+    width: 50%;
+    background-color: $color-primeraopcion;  
+}
+.tortas-2
+{
+    height: 300px;
+    width: 50%;
+    background-color: $color-segundaopcion;  
+}
+.carne-1
+{
+    height: 300px;
+    width: 50%;
+    background-color: $color-primeraopcion;  
+}
+.carne-2
+{
+    height: 300px;
+    width: 50%;
+    background-color: $color-segundaopcion;  
+}
+footer
+{
+    height: 500px;
+    width: 100%;
+    background-color: $color-principal;
+}
+img
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:480px)
+{
+    main
+    {
+        height: 2300px;
+    }
+    footer
+    {
+        height: 400px;
+    }
+}
+
+h1
+{
+    text-align: center;
+    
+}
+.portada
+{
+    width: 100%;
+    height: 200px;
+}
